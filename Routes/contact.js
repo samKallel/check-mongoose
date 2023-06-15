@@ -1,3 +1,4 @@
+//le routeur de la collection contact avec les diffferntes methodes et routes
 const express = require ('express');
 const Contact = require('../models/Contact');
 
@@ -58,5 +59,5 @@ router.put('/:_id', async (req,res)=>{
     }
 });
 
-
+//export
 module.exports = router;
